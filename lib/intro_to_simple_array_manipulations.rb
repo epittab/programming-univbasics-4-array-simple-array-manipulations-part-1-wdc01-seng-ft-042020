@@ -28,7 +28,11 @@ def using_shift(array)
 end
 
 def shift_with_args()
-  
+  while (int > 0) do
+    array.pop()
+    int -= 1
+  end
+  return array
   
   
 end
