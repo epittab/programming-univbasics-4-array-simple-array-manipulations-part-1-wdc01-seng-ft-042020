@@ -13,9 +13,11 @@ def using_pop(array)
   return array
 end
 
-def pop_with_args()
-  
-  
+def pop_with_args(array, int)
+  while (int > 0) do
+    array.pop()
+  end
+  return array
 end
 
 
