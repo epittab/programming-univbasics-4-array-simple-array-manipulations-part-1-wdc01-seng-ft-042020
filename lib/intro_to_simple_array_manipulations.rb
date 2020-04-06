@@ -18,7 +18,7 @@ def pop_with_args(array, int)
     array.pop()
     int -= 1
   end
-  return array
+  
 end
 
 
